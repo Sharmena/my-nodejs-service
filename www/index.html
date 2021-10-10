@@ -1,87 +1,64 @@
 <!DOCTYPE html>
-<!--
-    This branch part11-css completes the building the css styling for the home page.
-    Css is added for: button_1, 'boxes', box image, footer. 
-    The CSS for the media queries is also in the style.css in this branch.
-  
-    This completes the CSS styling for the home page. Next he will go on to 
-    show how to create the other two pages for the website.
-
-     Video location 38:48 thru 43:32
--->
-
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Affordable and professional web design">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Tom Newman">
-    <title>RWU Comsc230 Web Design | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-	  <header>
- <div class="container">
-     <div id="branding">
-         <h1><span class="highlight">RWU Comsc230</span> Web Design</h1>
-     </div>	
-     <nav>
-         <ul>
-             <li class="current"><a href="index.html">Home</a></li>
-             <li><a href="about.html">About</a></li>
-             <li><a href="services.html">Services</a></li>
-         </ul>
-     </nav>
-</div>
-     </header>
-     <section id="showcase">
-        <div class="container">
-          <h1>Affordable Professional Web Design</h1>
-          <!-- Dummy text is from www.lipsum.com -->
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content= "width = device-width">
+        <meta name = "description" content = "Information about Doctor Connors and other Bearded Dragons">
+        <meta name= "keywords" content= "lizard, bearded dragon, pets, dr.connors, scarlet">
+        <meta name = "author" content= "Cassy DeBlois">
+        <title> Acme Web Design | Welcome</title>
+        <link rel="stylesheet" href= "./css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class = "container">
+                <div id = "branding">
+                    <h1> <span class = "highlight">My Lizard:</span> Dr. Connors</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class = "current"><a href="index.html">Home </a></li>
+                        <li><a href="thewife.html">The Wife </a></li>
+                        <li><a href="habits.html">Habits </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id = "showcase">
+            <div class = "container">
+                <h1> Dr. Connors </h1>
+                <p> Dr. Connors is the lizard I got in 5th grade. He is a bearded dragon meaning he tends to live in the desert, but instead resides in my home. Here you can learn more about bearded dragons in general, their behaviors and more about Dr. Connors in general.</p>
+            </div>
+        </section>
+
+    
+    <section id= "boxes">
+        <div class = "container">
+            <div class = "box">
+                <img src="./img/habitat.JPG">
+                <h3>Habitat</h3>
+                <p>Like I said, bearded dragons live in the desert. To bring this to my home, I usually put him on crushed walnut shell sand (walnut shell is less harmful if he swallows it than actual sand) and soemtimes put colored sand on top like in the image. I give him multiple places to hide and dig around like drfitwood, plants, or other objects, along with a big water bowl and food dish. </p>
+            </div>
+            <div class = "box">
+                <img src="./img/diet.gif">
+                <h3>Diet</h3>
+                <p>Beardies are omnivores that eat a variety of insects, fruits, and vegetables. A healthy diet for these lizards can be a combination of berries, peas and carrots, kale, mealworms, and crickets. Dr. Connors is old and cranky so he more or less only eats mealworms now, but didn't always. </p>
+            </div>
+            <div class = "box">
+                <img src="./img/Lifetime.JPG">
+                <h3>Lifetime</h3>
+                <p>Dr. Connors is currently about 10 years old! These lizards generally live 10 - 15 years, but the oldest one was 18. </p>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="newsletter">
-        <div class="container">
-          <h1>Subscribe To Our Newsletter</h1>
-          <form>
-            <input type="email" placeholder="Enter Email...">
-            <button type="submit" class="button_1">Subscribe</button>
-          </form>
-        </div>
-      </section>
+    <footer>
+        <p>Dr. Connors, Cassachu &amp; Co. &copy; 2021</p>
+    </footer>
 
-<!-- Adding in the Boxes section under the newsletter section 
-The boxes are in a container class and each box has it's own div
+    </body>
 
-We also add the images to the img folder
-
--->
-
-      <section id="boxes">
-        <div class="container">
-          <div class="box">
-            <img src="./img/logo_html.png">
-            <h3>HTML5 Markup</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-          </div>
-          <div class="box">
-            <img src="./img/logo_css.png">
-            <h3>CSS3 Styling</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-          </div>
-          <div class="box">
-            <img src="./img/logo_brush.png">
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-          </div>
-        </div>
-      </section>
-      <footer>
-        <p>RWU Comsc230 Web Design, Copyright &copy; 2020</p>
-      </footer>
-
-  </body>
+    
 </html>
